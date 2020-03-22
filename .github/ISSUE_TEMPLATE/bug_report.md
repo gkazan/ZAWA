@@ -37,6 +37,6 @@ If your game crashed, paste your crash report to https://pastebin.com/ or simila
  - Bookworm Version Number :
  - Forge Version Number :
  - Is OptiFine installed? : 
-
+ - Is this bug present in single player or on a server or both? :
 **Additional context**
 Add any other context about the problem in place of this sentence.
