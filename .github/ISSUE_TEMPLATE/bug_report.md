@@ -9,7 +9,7 @@ assignees: ''
 **Issues that dont follow this template will be ignored and closed**
 
 
-**Test before making a report by removing all mods except ZAWA, Bookworm and ZAWA Add-ons. Check that you are using the latest versions of these mods**
+**Test before making a report by removing all mods except ZAWA, Bookworm and ZAWA Add-ons. Check that you are using the latest versions of these mods. Delete these lines when making a report.**
 
 
 **Describe the bug**
