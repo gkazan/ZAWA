@@ -1,2 +1,2 @@
 # ZAWA
-The Zoo &amp; Wild Animals Mod
+The offical issue tracker and wiki for Zoo &amp; Wild Animals Mod
