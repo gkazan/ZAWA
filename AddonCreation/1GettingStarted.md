@@ -9,4 +9,4 @@ With each new ZAWA update the accuracy of this tutorial will change.
 3. Add the two mods to your libs folder like you would for any other dependency.
 
 ## Tutorials
-..* After you have setup the workspace click any of the below links to learn about each topic.
+* After you have setup the workspace click any of the below links to learn about each topic.
