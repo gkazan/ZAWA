@@ -22,7 +22,7 @@ The DietHandler class has all the diets ZAWA animals and add-on animals use.
 * SCAVENGER
 * OPPORTUNIST
 * TURTLE
---
+
 Unpopulated, yet present lists for add-on use.
 * CARNIVORE_FISH
 * VEGGIE_FISH
