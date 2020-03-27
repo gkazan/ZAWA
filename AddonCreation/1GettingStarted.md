@@ -11,5 +11,9 @@ With each new ZAWA update the accuracy of this tutorial will change.
 ## Tutorials
 * After you have setup the workspace click any of the below links to learn about each topic.
 
+* [Land Animal](./LandAnimal.md)
+* [Water Animal](./WaterAnimal.md)
+* [Flying Animal](./FlyingAnimal.md)
+* [Land/Water Animal](./CrossoverAnimal.md)
 * [Diet Handling](./DietHandler.md)
 * [Damage Handling](./DamageHandler.md)
