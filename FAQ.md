@@ -41,6 +41,10 @@ A: Shift + Right Click the vehicle
 
 A: Make sure you're on the latest version of zawa! If you still have issues use the config file located in .minecraft/config to fix it.
 
+#### Q: Why are your discord admins mean?
+
+A: You don't pay them.
+
 #### Q: How do I find the crafting recipes?
 
 A: Download and use JEI for help with recipes: https://www.curseforge.com/minecraft/mc-mods/jei, or check out our Wiki tab at the top of this page.
