@@ -46,3 +46,41 @@ public class EntityOranguatan extends ZAWABaseLand {
 	}
 }
 ```
+
+Below is an example of what these methods would look like filled in.
+
+```java
+public class EntityOranguatan extends ZAWABaseLand {
+	public EntityOranguatan(World worldIn) {
+		super(worldIn);
+	}
+
+	@Override
+	public ItemStack setVial() {
+		return new ItemStack(ZAWAItems.APE_KIBBLE);
+	}
+
+	@Override
+	public ItemStack setTameItem() {
+		return new ItemStack(ZAWAItems.APE_VIAL);
+	}
+
+	@Override
+	public int setVariants() {
+		return 3; // This means there are 3 variants : 0, 1, and 2
+	}
+
+	@Override
+	public AnimalData.EnumNature setNature() {
+		return AnimalData.EnumNature.PROTECTIVE; // This nature will make the entity attack when the player is too close
+	}
+
+	@Nullable
+	@Override
+	public EntityAgeable createChild(EntityAgeable ageable) {
+		return new EntityOranguatan(world);
+	}
+}
+```
+
+Once you have created the class it is very important to go to the [Setting entity critical data](https://github.com/0SoggyMustache0/ZAWA/blob/master/AddonCreation/1GettingStarted.md#setting-entity-critical-data) section to make sure that your animal has things like a diet. There is nothing more you need to add to the entity class to get a functional ZAWA entity.
