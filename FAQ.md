@@ -13,9 +13,13 @@
 
 A: Only if the modpack is available solely on CurseForge/Twitch. There are NO exceptions.
 
-#### Q: Will you make the mod for Minecraft 1.7.10, 1.14.4, or any version of Minecraft other than Java?
+#### Q: Will you make the mod for Minecraft 1.7.10 or any distribution of Minecraft other than Java?
 
 A: No.
+
+#### Q: Will you make the mod for Minecraft 1.14.4+?
+
+A: [When the patreon goal here is reached](https://www.patreon.com/soggymods)
 
 #### Q: My game crashed or I have found a bug!
 
