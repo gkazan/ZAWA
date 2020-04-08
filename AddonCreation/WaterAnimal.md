@@ -73,3 +73,21 @@ public class EntityCoolFish extends ZAWABaseWater {
 ```
 
 Unlike ZAWABaseLand this class does not require the createChild method and by default it is expected that water animals cannot create children.
+
+## Useful Methods
+
+```java
+//If the animal can breathe while out of water
+boolean isLandBreather(){
+	return false;
+}
+```
+
+## Useful Variables
+```java
+//Will allow bubble particle affect to trail the entity
+boolean isBubble = false;
+
+//If a right click from the player will allow the player to start riding
+boolean ridden = false;
+```
