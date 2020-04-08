@@ -2,7 +2,8 @@
 ```diff
 With each new ZAWA update the accuracy of this tutorial will change.
 ```
-**Please read the [ZAWABaseLand Tutorial](https://github.com/0SoggyMustache0/ZAWA/blob/master/AddonCreation/LandAnimal.md) before continuing.
+**Please read the [ZAWABaseLand Tutorial](https://github.com/0SoggyMustache0/ZAWA/blob/master/AddonCreation/LandAnimal.md) before continuing.**
+
 The org.zawamod.entity.base.ZAWABaseWater extends upon ZAWABaseLand. Your entity should extend this class if you are making a water creature for zawa.
 
 ```java
