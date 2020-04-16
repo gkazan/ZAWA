@@ -53,6 +53,8 @@ A: Download and use JEI for help with recipes: https://www.curseforge.com/minecr
 
 Locate your minecraft directory, find the config folder, and ZAWA's files will be there in their own folder: **ZooAndWildAnimalsRebuilt1.12.2-VERSION**. Every new version of ZAWA generates a new folder, you can delete version folders you are not using!
 
+You MUST restart your game for any config changes to occur properly.
+
 WorldGeneration.cfg
   - Use this file to disable world generation of any plants added by ZAWA.
 
