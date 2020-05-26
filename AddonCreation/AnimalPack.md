@@ -21,6 +21,8 @@ Properties. This list may expand/shorten with each update.
 "water_breathing"
 "transportable" //If the animal can be placed in the ATV
 "controllable" //If the animal can be controlled while ridden (like a horse)
+"bird_shoulder" //If the bird can be held on the players shoulder
+"flip_sleep" //If the sleep time of the animal should be reversed
 ```
 
 ### Floats
@@ -31,6 +33,11 @@ Properties. This list may expand/shorten with each update.
 "flee_speed" 
 "step_height"
 "max_health"
+"inheritance_chance" //Chance of a baby getting the parent's variant
+"breed_variant_chance" //Chance for breed only variants to spawn
+"rare_variant_chance" //Chance for rare variants to spawn
+"male_gender_percent" //Chance for male animals to spawn (0.5 default)
+"jump_upwards_motion"
 ```
 
 ### Doubles
