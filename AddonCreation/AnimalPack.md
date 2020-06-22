@@ -11,13 +11,13 @@ Why? Not only does this method allow add-on developers to easily change zawa/add
 
 The JSON files go in assets/modid/data/animal/ANIMAL.json
 
-There is no proper registry method at this time.
+Registration of the AnimalPack must be done through ZAWAMain$registerPack with the paramaters for the class of the animal and a location to the pack. This method will return the AnimalPack object for the animal and put the object into the PACKS map of ZAWAMain.
 
 Properties. This list may expand/shorten with each update.
 
 ### Booleans
 ```
-"swimming"
+"swimming" //Although this will allow the animal to walk into water more frequenty it does NOT add swimming AI
 "water_breathing"
 "transportable" //If the animal can be placed in the ATV
 "controllable" //If the animal can be controlled while ridden (like a horse)
@@ -27,22 +27,22 @@ Properties. This list may expand/shorten with each update.
 
 ### Floats
 ```
-"damage" 
+"damage" //Animals attack damage
 "speed" //ZAWA handled speed (1.0 is default)
 "distance_tolerance" //How close a player has to be (depending on nature) before the animal will attack
-"flee_speed" 
+"flee_speed" //How fast the animal can run from predators
 "step_height"
 "max_health"
-"inheritance_chance" //Chance of a baby getting the parent's variant
-"breed_variant_chance" //Chance for breed only variants to spawn
-"rare_variant_chance" //Chance for rare variants to spawn
+"inheritance_chance" //Chance of a baby getting the parent's variant (0.6 default)
+"breed_variant_chance" //Chance for breed only variants to spawn (0.02 default)
+"rare_variant_chance" //Chance for rare variants to spawn (0.02 default)
 "male_gender_percent" //Chance for male animals to spawn (0.5 default)
 "jump_upwards_motion"
 ```
 
 ### Doubles
 ```
-"mc_speed" //MC handled speed (0.2 is around default)
+"mc_speed" //MC handled speed (0.23 is default)
 ```
 
 ### ItemStack / Drops
@@ -63,6 +63,8 @@ In reference to an item you should use the unlocalized name: "zawa:kibble"
 //Protective attacks if you get close or hit the animal while provoked is only if the animal is attacked
 
 "targets" //Targets is an array of resource locations, please review the example
+"breed_variants" //An array of integers for variants only avaible by breeding
+"rare_variants" //An array of integers for variants only availble with a rare spawn chance
 ```
 
 
