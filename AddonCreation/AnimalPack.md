@@ -4,8 +4,6 @@ With each new ZAWA update the accuracy of this tutorial will change.
 This tutorial currently references methods and variables in unreleased versions.
 ```
 
-## This tutorial currently references methods and code that are unreleased. This page should be used purely for preparation of the 2.1 update as things will change!
-
 As of ZAWA 2.1 the AnimalPack class has been introduced. The AnimalPack is a way to load in JSON files to provide important information for each animal.
 Why? Not only does this method allow add-on developers to easily change zawa/add-on animal information, but it also will allow the standard player to change information about animals using resource packs.
 
