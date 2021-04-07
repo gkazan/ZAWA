@@ -60,8 +60,10 @@ WorldGeneration.cfg
 
 ZAWA1.12.2-VERSION.cfg
   - This file contains general config options for ZAWA.
-  - Enable/disable climbing, low status deaths, bird egg drops, idle animations, inbreeding, overworld only spawns, entity spawns altogether.
-  - Configurable numbers include ticks for despawning, plus enrichment, hunger, and water deprecation.
+  - Enrichment deprecation and drinking cooldown can be configured here.
+
+ZAWAModules.cfg
+  - Main config for configuring hunger, thirst, and enrichment. ***Disable these in this config if you are having issues with your tamed animals dying!***
 
 ZAWASpawnConfigurations.cfg
   - This file is where you can enable/disable individual ZAWA entities, control exactly which biomes they spawn in, exactly how many spawn together, and how often they spawn.
