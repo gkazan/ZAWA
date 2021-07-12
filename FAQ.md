@@ -1,5 +1,9 @@
 # Frequently Asked Questions
 
+### Q: Will ZAWA: Rebuilt update past Minecraft 1.12.2?
+
+A: The short answer is no. However, there is an entire recode in the works by our team! ZAWA: Evolved will be released for Forge 1.16.5, once for Forge 1.12.2, and Fabric versions are TBD. All of Rebuilt's animals will be brought back, as well as many new animals! Be sure to join our discord or follow our Twitter for more information on Evolved.
+
 ## How To Install ZAWA
 
 - ZAWA: https://minecraft.curseforge.com/projects/zoo-wild-animals-rebuild
@@ -16,10 +20,6 @@ A: Only if the modpack is available solely on CurseForge/Twitch. There are NO ex
 #### Q: Will you make the mod for Minecraft 1.7.10 or any distribution of Minecraft other than Java?
 
 A: No.
-
-#### Q: Will you make the mod for Minecraft 1.14.4+?
-
-A: [When the patreon goal here is reached](https://www.patreon.com/soggymods)
 
 #### Q: My game crashed or I have found a bug!
 
